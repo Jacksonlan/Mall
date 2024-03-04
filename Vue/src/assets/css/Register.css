@@ -1,0 +1,68 @@
+.flex{
+    display: flex;
+}
+.box_table{
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 30px;
+}
+.input_table{
+    float: left;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgba(255, 165,0,0.6);
+}
+.login_table{
+    margin: 10% auto;
+    text-align: center;
+    line-height: 3;
+    border-radius: 30px;
+}
+.account{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 1px solid gray; 
+    padding-left: 10px;
+    font-size: 16px;
+}
+.password{
+    width: 400px;
+    height: 30px; 
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 1px solid gray; 
+    padding-left: 10px;
+    font-size: 16px;
+}
+.sub{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgba(255, 167,0);
+    border: none;
+    font-size: 20px;
+    color: ghostwhite
+}
+.to_login{
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+   }
+.to_login:hover{
+    color: red;
+    text-decoration: underline;
+}
+h1{
+   color: color-mix(in srgb-linear, blue,red);
+}
+.tip{
+    color: red;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 1;
+}

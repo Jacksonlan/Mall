@@ -1,0 +1,92 @@
+.Address{
+    width: 100%;
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+.Null{
+    display: flex;
+    margin-top: 10px;
+    width: 80%;
+    padding: 100px;
+    justify-content: center;
+    border: .0625rem solid gray;
+    color: gray;
+}
+.AddressAction{
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.newAddress{
+   padding: 5px;
+   font-size: 14px;
+   font-weight: bold;
+   margin-right: 20px;
+   outline: none;
+   color: white;
+   border: 0;
+   border-radius: 2px;
+   background-color: rgb(18, 73, 253);
+}
+.CountQuilty{
+    font-size: 14px;
+    line-height: 2;
+    color: gray;
+    margin-right: 30px;
+}
+.currentAddress{
+    font-size: 14px;
+    line-height: 2;
+}
+.AddressMessage{
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    border: .0625rem solid gray;
+    padding: 20px;
+    margin-top: 10px;
+}
+.Spical{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.InitAddress{
+    margin: 2px 20px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    height: 20px;
+    font-size: 14px;
+}
+.notice{
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.Edi{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.SetInit{ 
+    font-size: 14px;
+    text-decoration: none;
+}
+.SetInit:hover{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+.edit{
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.edit:hover{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}

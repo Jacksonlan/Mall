@@ -1,0 +1,79 @@
+.flex{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+   }
+.box_table{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 7% auto;
+    border-radius: 30px;
+   }
+.login_table{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 4% auto;
+    text-align: center;
+    line-height: 4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: whitesmoke;
+   }
+.account{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    font-size: 15px;
+   }
+.password{
+    width: 400px;
+    height: 30px; 
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    outline: none;  
+    font-size: 15px;
+    margin-top: 30px;
+   }
+.sub{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    font-size: 20px;
+    color: white;
+   }
+a{
+    color: black;
+    float: left;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.to_register{
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 20px;
+    justify-content:flex-end;
+}
+a:hover{
+    color: red;
+   }
+h1{
+   color: color-mix(in srgb-linear, blue,red);
+}
+.message{
+    color: red;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 1;
+}

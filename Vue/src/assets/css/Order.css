@@ -1,0 +1,45 @@
+.box-outer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderTable{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse; 
+}
+.OrderLeader{
+    height: 30px;
+    background: #f3eded;
+    border-bottom:1px solid gainsboro;
+}
+th{
+    margin-right: 20px;
+    font-size: 15px;
+    border-left: 1px solid rgb(221, 219, 219);
+}
+.OrderMessage{
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+.OrderMessage:hover{
+    background: #f3eded
+}
+.poi{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 5;
+}
+.orderPic{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.OrderNull{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}

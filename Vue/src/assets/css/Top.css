@@ -1,0 +1,67 @@
+.top_direction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 236, 94);
+}
+.toHome{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    left: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logoImg{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin:-5px 5px 0px 0px;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.home:hover{
+    color: red;
+}
+.top_li{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    margin-right:20px;
+    padding: 10px;
+}
+.chose{
+    color: red;
+    text-decoration: none;
+}
+.quit{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.select{
+    text-decoration: none;
+    color: red;
+}
+.a:hover{
+    color: orangered;
+}
+.br{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.b2r{
+    font-size: 18px;
+    color: red;
+}

@@ -1,0 +1,45 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(121, 118, 118);
+    line-height: 2;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: gainsboro;
+}
+ li{
+    list-style: none;
+    margin-left: 10px;
+} 
+.tx{
+    text-decoration: none;
+    font-size: 13px;
+    color: gainsboro;
+}
+.s{
+    margin-left: 5px;
+}
+.p{
+    font-size: 13px;
+    color: gainsboro;
+    text-align: center;
+}
+.police{
+    text-decoration: none;
+    text-align: center;
+}
+.ba{
+    vertical-align: middle;
+}
+.pl{
+    margin-left: 5px;
+    font-size: 13px;
+    color: gainsboro;
+    text-align: center;
+}

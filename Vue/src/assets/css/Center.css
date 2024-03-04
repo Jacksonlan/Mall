@@ -1,0 +1,8 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-left: 17%;
+    height: 100%;
+  }

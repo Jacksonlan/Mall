@@ -1,0 +1,110 @@
+.Input{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Text{
+    width: 70%;
+    padding: 5px 5px;
+    margin-top: 20px;
+    height: 80px;
+    outline: none;
+    border-color: rgb(186, 186, 250);
+    margin-right: 10px;
+    font-family: '楷体';
+    font-size: 16px;
+    border-radius: 5px;
+}
+.subComment{
+    width: 100px;
+    height: 30px;
+    margin-top: 70px;
+    background-color: rgb(10, 72, 245);
+    border: 0;
+    color: white;
+}
+.content{
+    background-color: white;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.sculpture{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;    
+    margin: 5px 25px;
+    overflow: hidden;
+}
+.sculpture_img{
+    width: 100%;
+    height: 100%;
+}
+.collect{
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin: 20px 10px;
+    border-radius: 10%;
+}
+.collect_bu{
+    width: 80%;
+    height: 100%;
+    border-radius: 100px;
+    border: 0;
+    color: rgb(192, 192, 14);
+}
+.news{
+    width: 770px;
+    height: 70px;
+}
+.sculpture_a{
+    text-decoration: none;
+    color: black;
+   line-height: 3;
+   font-size: 17px;
+}
+.sculpture_a:hover{
+    color: orange;
+}
+.time{
+    color: gray;
+    font-size: 10px;
+    margin-top: -10px;
+}
+.text_content{
+    width: 750px;
+    float: left;
+}
+.bottom{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 6%;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+}
+.a{
+    margin-left: 20%;
+    display: flex;
+    float: left;
+    line-height: 1.5;
+    text-decoration: none;
+    color: gray;
+}
+.img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin-top: 20px;
+}
