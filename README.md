@@ -1,2 +1,2 @@
-# Mall
-This is Mall project base on Vue
+# Simple ShoppingMall
+Please view the source code in Master!!!
